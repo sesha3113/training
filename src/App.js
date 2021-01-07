@@ -1,17 +1,18 @@
 import "./App.css";
 import Helloworld from "./Pages/helloworld/helloworld";
 import Routes from "./Routes/index";
-import {BrowserRouter,Route,Switch} from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 const Routing = () => {
-  return(
+  return (
     <Switch>
-          <Route exact path ='/'>
-            <Helloworld/> 
-          </Route>
+      <Route exact path="/">
+        <Helloworld />
+        
+      </Route>
     </Switch>
-  )
-}
+  );
+};
 
 function App() {
   return (
