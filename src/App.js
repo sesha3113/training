@@ -1,5 +1,6 @@
 import "./App.css";
 import Helloworld from "./Pages/helloworld/helloworld";
+import Routes from "./Routes/index";
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
 
 const Routing = () => {
@@ -17,7 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <BrowserRouter>
-          <Routing />
+          <Routes />
         </BrowserRouter>
       </header>
     </div>
