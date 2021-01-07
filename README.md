@@ -6,7 +6,7 @@ This repository includes an reactjs app that displays the HelloWorld. This is a 
 
 1. Clone/Download the Repository.
 
-2 .Extract the zip or navigate to the home directory.
+2. Extract the zip or navigate to the home directory.
 
 3. RUN npm install
 
