@@ -2,7 +2,7 @@
 
 This repository includes an reactjs app that displays the HelloWorld. This is a Node.Js app. 
 
-# instructions
+# Instructions
 
 1. Clone/Download the Repository.
 
