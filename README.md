@@ -1,13 +1,19 @@
 # training-
 
-Hello world web application using ReactJS.
+This repository includes an reactjs app that displays the HelloWorld. This is a Node.Js app. 
 
-Implemented routes to manage pages. 
+#instructions
 
-To run the application in local device, follow the steps. 
+1. Clone/Download the Repository.
 
-1. To clone project into local device, open git bash in the target file directory and git clone the repository URl. 
+2 .Extract the zip or navigate to the home directory.
 
-2. Prerequest needed, NodeJS. 
+3. RUN npm install
 
-3. Open the project with any IDE and run the command npm start to initialize the application. 
+4. After installation of NPM packages, RUN npm run start
+
+5. By default this node app will run in port 3000
+
+6. Finally, go to the browser and start http://localhost:3000
+
+
