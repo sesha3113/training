@@ -1,4 +1,4 @@
-export const labels = [
+const labels = [
   {
     id: 1,
     title: "username",

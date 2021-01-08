@@ -1,5 +1,4 @@
-import "./App.css";
-import Helloworld from "./Pages/helloworld/index";
+import Helloworld from "./Components/HelloWorld/index";
 
 function App() {
   return (
