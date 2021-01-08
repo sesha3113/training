@@ -1,4 +1,4 @@
-# training-
+# Training
 
 Hello world web application using ReactJS.
 
