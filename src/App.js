@@ -2,7 +2,6 @@ import "./App.css";
 import Helloworld from "./Pages/helloworld/helloworld";
 import Routes from "./Routes/index";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
 const Routing = () => {
   return (
     <Switch>
