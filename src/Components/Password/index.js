@@ -1,10 +1,11 @@
 import React from "react";
 
 const Password = (props) => {
+  const {TextFieldLabel} = props;
   return (
     <div>
-      <label htmlFor={props.TextFieldLabel}> {props.TextFieldLabel} </label>
-      <input type="password" name={props.TextFieldLabel} />
+      <label htmlFor={TextFieldLabel}> {TextFieldLabel} </label>
+      <input type="password" name={TextFieldLabel} />
     </div>
   );
 };

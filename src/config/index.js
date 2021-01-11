@@ -1,4 +1,4 @@
-const TextFieldlabels = ["Username", "Password"];
+const TextFieldLabel = ["Username", "Password"];
 
-const Config = { TextFieldlabels };
+const Config = { TextFieldLabel };
 export default Config;

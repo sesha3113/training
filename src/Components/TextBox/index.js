@@ -1,10 +1,11 @@
 import React from "react";
 
 const TextField = (props) => {
+  const {TextFieldLabel} = props;
   return (
     <div>
-      <label htmlFor={props.TextFieldLabel}>{props.TextFieldLabel}</label>
-      <input type="text" name={props.TextFieldLabel} />
+      <label htmlFor={TextFieldLabel}>{TextFieldLabel}</label>
+      <input type="text" name={TextFieldLabel} />
     </div>
   );
 };

@@ -4,13 +4,13 @@ import Password from "../Password";
 import Config from "../../config";
 
 const Helloworld = () => {
-  const { TextFieldlabels } = Config;
+  const { TextFieldLabel } = Config;
   return (
     <div>
-      <h1>Login!!</h1>
-      <TextField TextFieldLabel={TextFieldlabels[0]} />
-      <Password TextFieldLabel={TextFieldlabels[1]} />
+      <h1>Login</h1>
+      <TextField TextFieldLabel={TextFieldLabel[0]} />
+      <Password TextFieldLabel={TextFieldLabel[1]} />
     </div>
   );
-}
+};
 export default Helloworld;
