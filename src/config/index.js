@@ -1,9 +1,9 @@
 const TextFieldlabels = [
   {
-    title: "username",
+    title: "Username ",
   },
   {
-    title: "password",
+    title: "Password ",
   },
 ];
 

@@ -9,4 +9,15 @@ const TextField = (props) => {
   );
 };
 
-export default TextField;
+const Password = (props) => {
+  return (
+    <div>
+      <label htmlFor={props.TextFieldLabel}> {props.TextFieldLabel} </label>
+      <input type="password" name={props.TextFieldLabel} />
+    </div>
+  );
+};
+
+const Fields = { TextField, Password };
+
+export default Fields;
