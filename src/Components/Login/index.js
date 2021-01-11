@@ -3,7 +3,7 @@ import TextField from "../TextBox";
 import Password from "../Password";
 import Config from "../../config";
 
-function Helloworld() {
+const Helloworld = () => {
   const { TextFieldlabels } = Config;
   return (
     <div>
