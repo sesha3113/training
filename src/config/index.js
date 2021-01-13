@@ -1,12 +1,12 @@
 const LoginLabel = [
   {
     type: "text",
-    name: "Username",
+    label: "Username",
     placeholder: "Enter your Username..",
   },
   {
     type: "password",
-    name: "Password",
+    label: "Password",
     placeholder: "Enter your password..",
   }
 ];

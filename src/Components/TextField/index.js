@@ -5,9 +5,9 @@ const TextField = (props) => {
   const { attributes } = props;
   return (
     <div>
-      <Label name={attributes.name}></Label>
+      <Label label={attributes.label}></Label>
       <input
-        name={attributes.name}
+        name={attributes.label}
         type={attributes.type}
         placeholder={attributes.placeholder}
       />

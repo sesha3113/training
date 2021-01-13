@@ -1,11 +1,11 @@
 import React from "react";
 
 const Label = (props) => {
-  const { name } = props;
+  const { label } = props;
 
   return (
     <div>
-      <label>{name}</label>
+      <label>{label}</label>
     </div>
   );
 };
