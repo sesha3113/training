@@ -7,7 +7,6 @@ const TextField = (props) => {
     <div>
       <Label label={attributes.label}></Label>
       <input
-        name={attributes.label}
         type={attributes.type}
         placeholder={attributes.placeholder}
       />
