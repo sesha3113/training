@@ -1,15 +1,26 @@
-const LoginLabel = [
+const textFieldAttributes = [
   {
-    type: "text",
     label: "Username",
+    type: "text",
     placeholder: "Enter your Username..",
+    isLabel: true,
+    labelSize: "md",
+    textboxPlaceholderSize: "sm"
   },
   {
-    type: "password",
     label: "Password",
+    type: "password",
     placeholder: "Enter your password..",
-  }
+    isLabel: true,
+    labelSize: "md",
+    textboxPlaceholderSize: "sm"
+  },
 ];
 
-const Config = { LoginLabel };
+const Login = {
+  titlePiece: "Login",
+  size: "sm"
+}
+
+const Config = { textFieldAttributes, Login };
 export default Config;

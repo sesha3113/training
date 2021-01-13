@@ -1,15 +1,12 @@
 import React from "react";
 import Label from "../Label";
 
-const TextField = (props) => {
-  const { attributes } = props;
+const TextField = ({ attributes }) => {
+  const { label, type, placeholder, isLabel, textboxPlaceholderSize } = attributes;
   return (
     <div>
-      <Label label={attributes.label}></Label>
-      <input
-        type={attributes.type}
-        placeholder={attributes.placeholder}
-      />
+      {isLabel && <Label attributes={attributes} />}
+      <input className = {`textbox-font-${textboxPlaceholderSize}`} type={type} placeholder={placeholder} id={label} required />
     </div>
   );
 };

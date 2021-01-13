@@ -9,10 +9,44 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 30px;
   color: white;
 }
 
 body {
   margin: 0;
+}
+
+/* Label font size */
+
+.label-font-sm {
+  font-size: 1rem;
+}
+
+.label-font-md {
+  font-size: 1.5rem;
+}
+
+.label-font-lg {
+  font-size: 2rem;
+}
+
+/* Heading Font Size */
+.heading-text-sm {
+  font-size: 3.5rem;
+}
+.heading-text-md {
+  font-size: 1.5rem;
+}
+.heading-text-lg {
+  font-size: 2rem;
+}
+
+.textbox-font-sm {
+  font-size: 1rem;
+}
+.textbox-font-md {
+  font-size: 1.5rem;
+}
+.textbox-font-lg {
+  font-size: 2rem;
 }
