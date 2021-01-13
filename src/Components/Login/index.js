@@ -1,15 +1,15 @@
 import React from "react";
-import TextField from "../TextBox";
-import Password from "../Password";
+//import TextField from "../TextBox";
+import TextField from "../TextField";
 import Config from "../../config";
 
 const Helloworld = () => {
-  const { TextFieldLabel } = Config;
+  const { LoginLabel } = Config;
   return (
     <div>
       <h1>Login</h1>
-      <TextField TextFieldLabel={TextFieldLabel[0]} />
-      <Password TextFieldLabel={TextFieldLabel[1]} />
+      <TextField attributes={LoginLabel[0]} />
+      <TextField attributes={LoginLabel[1]} />
     </div>
   );
 };
