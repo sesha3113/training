@@ -3,24 +3,22 @@ const textFieldAttributes = [
     label: "Username",
     type: "text",
     placeholder: "Enter your Username..",
-    isLabel: true,
+    hasLabel: true,
     labelSize: "md",
-    textboxPlaceholderSize: "sm"
   },
   {
     label: "Password",
     type: "password",
     placeholder: "Enter your password..",
-    isLabel: true,
+    hasLabel: true,
     labelSize: "md",
-    textboxPlaceholderSize: "sm"
   },
 ];
 
 const Login = {
   titlePiece: "Login",
-  size: "sm"
-}
+  size: "sm",
+};
 
 const Config = { textFieldAttributes, Login };
 export default Config;

@@ -2,11 +2,11 @@ import React from "react";
 import Label from "../Label";
 
 const TextField = ({ attributes }) => {
-  const { label, type, placeholder, isLabel, textboxPlaceholderSize } = attributes;
+  const { label, type, placeholder, hasLabel } = attributes;
   return (
     <div>
-      {isLabel && <Label attributes={attributes} />}
-      <input className = {`textbox-font-${textboxPlaceholderSize}`} type={type} placeholder={placeholder} id={label} required />
+      {hasLabel && <Label attributes={attributes} />}
+      <input type={type} placeholder={placeholder} id={label} required />
     </div>
   );
 };
